@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59389" started-at="2019-07-08T02:54:38Z" finished-at="2019-07-08T02:55:37Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test With Multiple Input" duration-ms="34505" started-at="2019-07-08T02:54:38Z" finished-at="2019-07-08T02:55:12Z">
+      <class name="tests.LoginPageTestWithMulInputTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.LoginPageTestWithMulInputTest@7fa98a66]" name="initializeDriver" is-config="true" duration-ms="14801" started-at="2019-07-08T02:54:38Z" finished-at="2019-07-08T02:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginPageTestWithMulInputTest@7fa98a66]" name="loginTest" duration-ms="9672" started-at="2019-07-08T02:54:53Z" data-provider="getData" finished-at="2019-07-08T02:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mdjoshi22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Find a Flight: Mercury Tours:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginPageTestWithMulInputTest@7fa98a66]" name="loginTest" duration-ms="8837" started-at="2019-07-08T02:55:02Z" data-provider="getData" finished-at="2019-07-08T02:55:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anjalibhat82@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Find a Flight: Mercury Tours:]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:tests.LoginPageTestWithMulInputTest@7fa98a66]" name="closeApplication" is-config="true" duration-ms="1161" started-at="2019-07-08T02:55:11Z" finished-at="2019-07-08T02:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- tests.LoginPageTestWithMulInputTest -->
+    </test> <!-- Login Page Test With Multiple Input -->
+    <test name="Login Page Test" duration-ms="23931" started-at="2019-07-08T02:55:13Z" finished-at="2019-07-08T02:55:37Z">
+      <class name="tests.LoginPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:tests.LoginPageTest@4cc451f2]" name="initializeDriver" is-config="true" duration-ms="10620" started-at="2019-07-08T02:55:13Z" finished-at="2019-07-08T02:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:tests.LoginPageTest@4cc451f2]" name="loginTest" duration-ms="13204" started-at="2019-07-08T02:55:24Z" finished-at="2019-07-08T02:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:tests.LoginPageTest@4cc451f2]" name="closeApplication" is-config="true" duration-ms="105" started-at="2019-07-08T02:55:37Z" finished-at="2019-07-08T02:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+  </suite> <!-- Suite -->
+</testng-results>

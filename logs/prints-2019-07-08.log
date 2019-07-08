@@ -1,0 +1,9 @@
+07:26:25.949 [main] INFO  resources.Base - Entered username and password
+07:26:26.040 [main] INFO  resources.Base - Successfully validated
+08:24:46.079 [main] INFO  resources.Base - Driver is initialized
+08:24:47.415 [main] INFO  resources.Base - Maximized
+08:24:50.031 [main] INFO  resources.Base - Delete All Cookies
+08:24:53.285 [main] INFO  resources.Base - Url entered
+08:25:21.000 [main] INFO  resources.Base - Driver is initialized
+08:25:22.154 [main] INFO  resources.Base - Maximized
+08:25:23.223 [main] INFO  resources.Base - Delete All Cookies

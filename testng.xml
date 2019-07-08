@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="resources.Listeners" />
+	 	<listener class-name="resources.ExtentReporterNG" />
+	</listeners>
+
+  <test name="Login Page Test With Multiple Input">
+    <classes>
+      <class name="tests.LoginPageTestWithMulInputTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Login Page Test">
+    <classes>
+      <class name="tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
